@@ -6,7 +6,6 @@
       <class name="P2PProject.Login">
         <methods>
           <include name="login"/>
-          <include name="tearDown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- P2PProject.Login -->
