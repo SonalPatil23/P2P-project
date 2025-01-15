@@ -43,6 +43,13 @@ public class UpdatedDropdown {
 		driver.findElement(By.id("btnclosepaxoption")).click();
 		Assert.assertEquals(driver.findElement(By.id("divpaxinfo")).getText(), "5 Adult");
 		System.out.println(driver.findElement(By.id("divpaxinfo")).getText());
+		
+		
+		   System.out.print("Hello sonal");
+	        System.out.print("Hello Amey");
+	        System.out.print("Login sucessfully");
+	        System.out.print("url not work");
+		
 
 	}
 }
