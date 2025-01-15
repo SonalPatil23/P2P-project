@@ -34,11 +34,12 @@ public class Login {
         WebElement MobNumber = wait.until(ExpectedConditions.elementToBeClickable(By.id("signConsumerNo")));
         MobNumber.sendKeys("2000026621");
 
-        WebElement pass = wait.until(ExpectedConditions.elementToBeClickable(By.id("password")));
-        pass.sendKeys("Test@1234");
-
-        WebElement login = wait.until(ExpectedConditions.elementToBeClickable(By.id("loginbtnviaConNo")));
-        login.click();
+        System.out.print("Hello sonal");
+//        WebElement pass = wait.until(ExpectedConditions.elementToBeClickable(By.id("password")));
+//        pass.sendKeys("Test@1234");
+//
+//        WebElement login = wait.until(ExpectedConditions.elementToBeClickable(By.id("loginbtnviaConNo")));
+//        login.click();
 
         // Additional assertions can be added here to verify successful login
     }
